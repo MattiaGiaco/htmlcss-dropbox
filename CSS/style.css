@@ -14,6 +14,26 @@ body{
   clear: both;
 }
 
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.btn{
+  text-decoration: none;
+  background-color: #0061ff;
+  padding: 2px 13px;
+  color: white;
+}
+
+.btn.blue:hover{
+  background-color: #3c85ff;
+}
+
+#arrow{
+  font-size: 40px;
+  color: black;
+}
 
 /* HEADER */
 header{
@@ -22,27 +42,72 @@ header{
   position: fixed;
   z-index: 999;
   line-height: 80px;
-  background-color: slategray;
+  background-color: white;
+}
+
+#logo{
+  margin-left: 10px;
+  vertical-align: middle;
 }
 
 .menu-right{
   float: right;
+  margin-right: 20px;
 }
 
-header ul{
+header nav ul{
   float: left;
 }
 
-header ul li {
+header nav ul li {
   display: inline-block;
   list-style: none;
   margin-right: 30px;
 }
 
+header nav ul li a{
+display: inline-block;
+text-decoration: none;
+color: black;
+}
+
+header nav ul li a:hover{
+  border-bottom: 2px solid black;
+}
+
 /* MAIN */
 .junbotron{
   min-height: 600px;
-  background-color: teal;
+  padding-top: 100px;
+  background-color: #b4d0e7;
+}
+
+.junbotron h1{
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.junbotron-info{
+  width: 30%;
+  float: left;
+}
+
+.junbotron-info p{
+  margin-bottom: 20px;
+}
+
+.junbotron-info span:first-of-type{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.junbotron-image img{
+  float: right;
+  width: 60%;
+  background-color: blueviolet;
 }
 
 .business-plan{
@@ -50,10 +115,6 @@ header ul li {
   background-color: seagreen;
 }
 
-.enterprice{
-  min-height: 200px;
-  background-color: skyblue;
-}
 
 .partner{
   min-height: 300px;
