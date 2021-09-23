@@ -76,10 +76,17 @@ header nav ul li a:hover{
 }
 
 /* MAIN */
+
+/* junbotron */
 .junbotron{
   min-height: 600px;
   padding-top: 100px;
   background-color: #b4d0e7;
+}
+
+.container-junbo{
+  width: 80%;
+  margin: 0 auto;
 }
 
 .junbotron h1{
@@ -110,9 +117,18 @@ header nav ul li a:hover{
   background-color: blueviolet;
 }
 
+/* business-plan */
 .business-plan{
   min-height: 800px;
   background-color: seagreen;
+}
+
+.col{
+  width: 30%;
+  height: 300px;
+  float: left;
+  margin: 1%;
+  background-color: brown;
 }
 
 
