@@ -39,6 +39,11 @@ body{
   color: #0061ff;
 }
 
+h2{
+  font-size: 38px;
+  font-weight: bolder;
+}
+
 /* HEADER */
 header{
   height: 80px;
@@ -135,24 +140,22 @@ header nav ul li:hover .sub-menu ul li{
 .junbotron-image img{
   float: right;
   width: 60%;
-  background-color: blueviolet;
 }
 
 /* Business-plan */
-.business-plan{
-  min-height: 800px;
-  background-color: seagreen;
+.col{
+  width: calc(100% / 3 - 27px);
+  float: left;
+  margin-bottom: 50px;
+  border: 1px solid black;
 }
 
-.col{
-  width: calc(100% / 3 - 20px);
-  float: left;
-  margin: 10px;
-  background-color: brown;
+.center{
+  margin: 0 40px;
 }
 
 .col-content{
-  padding: 30px;
+  padding: 50px;
 }
 
 .col-title{
@@ -203,7 +206,10 @@ header nav ul li:hover .sub-menu ul li{
 /* Business operation */
 .business-operation{
   min-height: 1000px;
-  background-color: yellowgreen;
+}
+
+.business-operation > h2{
+  font size: 50px;
 }
 
 .operation{
@@ -216,6 +222,8 @@ header nav ul li:hover .sub-menu ul li{
   width: 100%;
 }
 
+
+/* Team */
 .team{
   min-height: 700px;
   background-color: thistle;
@@ -234,6 +242,44 @@ header nav ul li:hover .sub-menu ul li{
 
 /* FOOTER */
 footer{
-  min-height: 300px;
+  height: 70vh;
   background-color: black;
+}
+
+.footer-list{
+  padding: 8% 10%;
+}
+
+.footer-list ul{
+  float: left;
+  width: calc(100% / 5);
+  list-style: none;
+  line-height: 30px;
+}
+
+.footer-list ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-list ul li a:hover{
+  border-bottom: 1px solid white;
+}
+
+.footer-list ul li:first-child{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.line2{
+  height: 1px;
+  width: 10%;
+  background-color: white;
+  margin-left: 10%;
+}
+
+.ita{
+  color: white;
+  margin: 40px 10%;
 }
