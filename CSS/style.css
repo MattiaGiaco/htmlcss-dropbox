@@ -22,7 +22,7 @@ body{
 .btn{
   text-decoration: none;
   background-color: #0061ff;
-  padding: 2px 13px;
+  padding: 8px 18px;
   color: white;
 }
 
@@ -33,6 +33,10 @@ body{
 #arrow{
   font-size: 40px;
   color: black;
+}
+
+.fa-check{
+  color: #0061ff;
 }
 
 /* HEADER */
@@ -125,12 +129,40 @@ header nav ul li a:hover{
 
 .col{
   width: 30%;
-  height: 300px;
   float: left;
   margin: 1%;
   background-color: brown;
 }
 
+.col-content{
+  padding: 30px;
+}
+
+.col-title{
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+
+.col-header span{
+  display: block;
+}
+
+.col-list{
+  list-style: none;
+  margin: 40px 0;
+}
+
+.line{
+  height: 1px;
+  width: 20%;
+  background-color: black;
+  margin: 40px 0;
+}
+
+.enterprice{
+  border: 1px solid black;
+}
 
 .partner{
   min-height: 300px;
