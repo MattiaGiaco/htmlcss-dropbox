@@ -73,10 +73,27 @@ header nav ul li a{
 display: inline-block;
 text-decoration: none;
 color: black;
+position: relative;
 }
 
 header nav ul li a:hover{
   border-bottom: 2px solid black;
+}
+
+.sub-menu{
+  display: none;
+}
+
+header nav ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  background-color: white;
+  padding-left: 20px;
+  line-height: 40px;
+}
+
+header nav ul li:hover .sub-menu ul li{
+  display: block;
 }
 
 /* MAIN */
