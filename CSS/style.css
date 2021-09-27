@@ -248,60 +248,87 @@ h1{
 .line{
   height: 1px;
   width: 20%;
-  background-color: black;
+  background-color: lightgrey;
   margin: 40px 0;
 }
 
 .enterprice{
   border: 1px solid black;
 }
+
 .enterprice-main{
   float: left;
-  line-height: 30px;
+  line-height: 40px;
   margin: 30px 0 20px 25px;
 }
 
 .sales-btn{
   float: right;
-  margin: 30px;
+  padding: 40px;
 }
 
 
 /* Partner */
 .partner{
-  margin: 80px auto;
+  width: 100%;
+  margin: 180px auto;
+}
+
+.partner-image{
+  float: left;
 }
 
 .partner-image img{
-  max-width: 60%;
-  object-fit: cover;
-  float: left;
+  height: 500px;
 }
 
 .partner-info{
-  float: left;
-  max-width: 30%;
+  float: right;
+  width: 40%;
   margin: 50px 50px;
+}
+
+.partner-info h3{
+  font-size: 28px;
+}
+
+.partner-info p{
+  padding: 35px 0;
+  line-height: 28px;
+}
+
+.partner-info a{
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 20px;
+  color: black;
 }
 
 
 /* Business operation */
-.business-operation{
-  min-height: 1000px;
-}
 
 .business-operation > h2{
   font size: 50px;
+  margin-bottom: 50px;
 }
 
 .operation{
   float: left;
-  width: calc(100% / 3 - 20px);
-  margin: 10px;
+  width: calc(100% / 3);
+  margin-bottom: 100px;
 }
 
 .operation img{
-  width: 100%;
+  height: 200px;
+}
+
+.operation h4, .operation p {
+  width: 80%;
+}
+
+.operation h4{
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -311,7 +338,6 @@ h1{
 }
 
 .team h2{
-  margin-top: 60px;
   margin-bottom: 30px;
 }
 
