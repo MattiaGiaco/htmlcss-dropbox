@@ -119,21 +119,25 @@ header nav ul li:hover .sub-menu ul li{
 
 /* Junbotron */
 .junbotron{
-  min-height: 600px;
-  padding-top: 100px;
   background-color: #b4d0e7;
+  margin-bottom: 200px;
 }
 
 .container-junbo{
+  position: relative;
   width: 80%;
   margin: 0 auto;
+  padding-top: 5%;
+  bottom: -80px;
 }
 
-.junbotron h1{
-  font-size: 50px;
-  font-weight: bolder;
-  margin-top: 80px;
-  margin-bottom: 30px;
+h1{
+  font-size: 70px;
+  padding-bottom: 40px;
+}
+
+.junbo-content{
+  width: 100%;
 }
 
 .junbotron-info{
@@ -142,18 +146,22 @@ header nav ul li:hover .sub-menu ul li{
 }
 
 .junbotron-info p{
-  margin-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .junbotron-info span:first-of-type{
   display: block;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.junbotron-image{
+  float: right;
+  width: 65%;
 }
 
 .junbotron-image img{
-  float: right;
-  width: 60%;
+  height: 500px;
 }
 
 /* Business-plan */
